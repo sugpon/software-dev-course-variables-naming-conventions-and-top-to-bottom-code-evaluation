@@ -24,9 +24,9 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";// Changed variable name from a-> customerName as a best practice followng camelCase relevent to the program
+let itemCount = 5;//b-> itemCount in camelcase relevant to the program
+let totalPrice = 20;// c-> totalPrice in camelCase 
+let message = customerName + " bought " + itemCount + " items for $" + totalPrice + ".";//d-> message in camelCase
 
-console.log(d);
+console.log(message);
